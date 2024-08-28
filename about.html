@@ -3,20 +3,34 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1">
-    <title>About</title>
+    <title>Kirsten Rosenbalm</title>
     <meta name="description" content="Web Development Portfolio">
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
+
+
 <body>
-    <!-- navigation bar -->
+    <!-- bootstrap support -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- navigation bar */ -->
     <div class="navbar">
-        <div>Kirsten Rosenbalm</div>
-        <div class="navpages">
-            <p class="nav-item"><a href="index.html">Home</a></p>
-            <p class="nav-item"><a href="about.html">About</a></p>
-            <p class="nav-item"><a href="projects.html">Projects</a></p>
-            <p class="nav-item"><a href="#.html">Contact</a></p>
-        </div>
+        <div class="navbar-brand">Kirsten Rosenbalm</div>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="file:///Users/kirstenrosenbalm/Desktop/web_dev/portfolio-site/kirstenrosen.github.io/index.html#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///Users/kirstenrosenbalm/Desktop/web_dev/portfolio-site/kirstenrosen.github.io/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///Users/kirstenrosenbalm/Desktop/web_dev/portfolio-site/kirstenrosen.github.io/projects.html">Projects</a>
+            </li>
+        </ul>
     </div>
 
     <!-- bio -->
@@ -51,13 +65,29 @@
         </ul>
     </div>
 
-    <!-- work experience (lol what work experience)-->
+    <!-- work experience -->
+    <!--------->
+    <!--------->
+    <!-- N/A -->
+    <!--------->
+    <!--------->
 
+    <!-- contact -->
+    <form action="#" method="post">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="username">
+
+        <label for="address">Email: </label>
+        <input type="text" id="address" name="email">
+
+        <label for="message">Message: </label>
+        <textarea id="message" name="message"></textarea>
+    </form>
 
     <!-- footer -->
-    <footer>
-        <p>&copy 2024</p> 
-        <p>Kirsten Rosenbalm</p>
+    <footer class="w-100 py-5 pl-auto">
+        <p class="footer-text">&copy 2024</p> 
+        <p class="footer-text">Kirsten Rosenbalm</p>
     </footer>
 </body>
 </html>
