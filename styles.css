@@ -1,11 +1,30 @@
-.navpages {
+.navbar {
     width: 100%;
     justify-content: space-between;
+    background-color: #261e59;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav {
+    flex-direction: row;
 }
 
 .nav-item {
     padding: 10px;
     margin: 10px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .h1 {
@@ -14,8 +33,21 @@
     min-height: 40px;
 }
 
+i { color: #261e59; }
+
 .icon-links {
     margin: auto;
+}
+
+footer {
+    background-color: #261e59;
+    position: fixed;
+    bottom: 0px;
+    flex-direction: row;
+}
+
+.footer-text {
+    color:white;
 }
 
 .bi {
@@ -25,4 +57,10 @@
 img {
     max-width: 200px;
     margin:10px;
+}
+
+#portfolio-button {
+    background-color: #261e59;
+    color:white;
+    border: none;
 }
