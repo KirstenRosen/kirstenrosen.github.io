@@ -34,13 +34,18 @@
     </div>
 
     <!-- bio -->
-    <div class="">
-        <img src="profile-pic.jpg" alt="profile picture">
-        <p>Hello, I'm Kirsten Rosenbalm, currently living in the Seattle area. 
-           I enjoy hiking, listening to music, and painting.
-           I graduated in Illustration in 2020, and attended various workshops and courses building various foundational coding skills since. 
-           I've had some basic experience with HTML/CSS/Javascript/Java on and off for a few years. 
-           I'm looking forward to building on my skills and contributing back to the community!</p>
+    <div class="row">
+        <div class="col-4">
+            <img src="profile-pic.jpg" alt="profile picture">
+        </div>
+        
+        <div class="col-8 short-bio">
+            <p>Hello, I'm Kirsten Rosenbalm, currently living in the Seattle area. 
+            I enjoy hiking, listening to music, and painting.
+            I graduated in Illustration in 2020, and attended various workshops and courses building various foundational coding skills since. 
+            I've had some basic experience with HTML/CSS/Javascript/Java on and off for a few years. 
+            I'm looking forward to building on my skills and contributing back to the community!</p>
+        </div>
     </div>
 
     <!-- skills -->
@@ -73,15 +78,21 @@
     <!--------->
 
     <!-- contact -->
-    <form action="#" method="post">
-        <label for="name">Name: </label>
-        <input type="text" id="name" name="username">
+    <form action="#" method="post" class="mx-auto">
+        <div class="form-item">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="username">
+        </div>
 
-        <label for="address">Email: </label>
-        <input type="text" id="address" name="email">
+        <div class="form-item">
+            <label for="address">Email: </label>
+            <input type="text" id="address" name="email">
+        </div>
 
-        <label for="message">Message: </label>
-        <textarea id="message" name="message"></textarea>
+        <div class="form-item">
+            <label for="message">Message: </label>
+            <textarea id="message" name="message"></textarea>
+        </div>
     </form>
 
     <!-- footer -->
